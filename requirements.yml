@@ -1,4 +1,4 @@
-name: py38
+name: RNADiffFold
 channels:
   - https://repo.anaconda.com/pkgs/main
   - defaults
@@ -148,5 +148,5 @@ dependencies:
     - xyzservices==2024.4.0
     - yarl==1.9.2
     - zipp==3.15.0
-prefix: /home/students/zhyl_fyz/anaconda3/envs/py38
+prefix: /home/students/zhyl_fyz/anaconda3/envs/RNADiffFold
 
