@@ -1,0 +1,28 @@
+{
+  "project_name": "evaluation",
+  "save_root_path": "/home/students/zhyl_fyz/RNADiffFold/evaluation",
+  "model_ckpt_path": "/home/students/zhyl_fyz/RNADiffFold/ckpt/finetune.seed.2023.pt",
+  "seed": 1,
+  "device": "cuda:7",
+  "num_samples": 10,
+  "dry_run": true,
+  "round": 204,
+
+  "data":
+  {
+    "dataset": "pdbnew",
+    "batch_size": 1,
+    "num_workers": 6,
+    "pin_memory": false
+  },
+
+  "model":
+  {
+    "diffusion_steps": 20,
+    "num_classes": 2,
+    "diffusion_dim": 8,
+    "cond_dim": 8,
+    "dp_rate": 0.1,
+    "u_conditioner_ckpt": "ufold_train_alldata.pt"
+  }
+}

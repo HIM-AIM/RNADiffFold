@@ -1,0 +1,21 @@
+{
+  "project_name": "prediction",
+  "save_root_path": "/home/students/zhyl_fyz/RNADiffFold/common/prediction",
+  "model_ckpt_path": "/home/students/zhyl_fyz/RNADiffFold/ckpt/train.seed.2023.pt",
+
+  "device": 1,
+  "seed": 2023,
+  "num_samples": 10,
+  "predict_data": "predict.fasta",
+
+
+  "model":
+  {
+    "diffusion_steps": 20,
+    "num_classes": 2,
+    "diffusion_dim": 8,
+    "cond_dim": 8,
+    "dp_rate": 0.1,
+    "u_conditioner_ckpt": "ufold_train_alldata.pt"
+  }
+}
