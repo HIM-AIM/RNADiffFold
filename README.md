@@ -62,4 +62,4 @@ We provide the predict script for user to predict the secondary structure of the
 ```bash
 python prediction/predict.py
 ```
-The predict results for each sequence will be stored in the `./prediction/'predict_results/ct_files'` directory.s
+The predict results for each sequence will be stored in the `./prediction/predict_results/ct_files` directory.
