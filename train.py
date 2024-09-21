@@ -29,7 +29,7 @@ set_seeds(args.seed)
 model_id = get_model_id(args)
 model, alphabet = get_model(args)
 
-# ckpt_path = '/home/students/zhyl_fyz/difffoldrna/ckpt/train.seed.2023.pt'
+# ckpt_path = '..'
 # checkpoint = torch.load(ckpt_path, map_location='cpu')
 # model.load_state_dict(checkpoint['model'])
 # print('load model from {}'.format(ckpt_path))

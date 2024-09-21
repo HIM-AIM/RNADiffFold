@@ -41,7 +41,7 @@ def prediction(config, model, data_fcn_2, tokens, seq_encoding_pad, seq_length, 
 
 if __name__ == '__main__':
     ROOT_PATH = os.getcwd()
-    save_path = join(ROOT_PATH, 'predict_results/visualization')
+    save_path = join(ROOT_PATH, 'predict_results/ct_files')
     if not os.path.exists(save_path):
         os.makedirs(save_path)
 

@@ -1,7 +1,7 @@
 {
   "project_name": "evaluation",
-  "save_root_path": "/home/students/zhyl_fyz/RNADiffFold/evaluation",
-  "model_ckpt_path": "/home/students/zhyl_fyz/RNADiffFold/ckpt/finetune.seed.2023.pt",
+  "save_root_path": "./evaluation",
+  "model_ckpt_path": "./ckpt/finetune.seed.2023.pt",
   "seed": 1,
   "device": "cuda:7",
   "num_samples": 10,

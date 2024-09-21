@@ -12,7 +12,7 @@ from models.condition.fm_conditioner.pretrained import load_model_and_alphabet_l
 import lightning.pytorch as pl
 
 CH_FOLD = 1
-cond_ckpt_path = '/home/students/zhyl_fyz/difffoldrna/models/condition/ckpt'
+cond_ckpt_path = '../ckpt/cond_ckpt'
 
 
 def add_model_args(parser):

@@ -6,7 +6,7 @@ from functools import partial
 
 dataset_choices = ['RNAStrAlign', 'archiveII', 'bpRNA', 'bpRNAnew', 'pdbnew', 'all']
 
-ROOT_PATH = '/home/students/zhyl_fyz/new_dataset/preprocess/'
+ROOT_PATH = './data'
 
 
 def add_data_args(parser):

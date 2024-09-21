@@ -1,7 +1,7 @@
 {
   "project_name": "prediction",
-  "save_root_path": "/home/students/zhyl_fyz/RNADiffFold/common/prediction",
-  "model_ckpt_path": "/home/students/zhyl_fyz/RNADiffFold/ckpt/train.seed.2023.pt",
+  "save_root_path": "./common/prediction",
+  "model_ckpt_path": "./ckpt/model_ckpt/train.seed.2023.pt",
 
   "device": 1,
   "seed": 2023,
