@@ -1,6 +1,6 @@
 # RNADiffFold: Generative RNA Secondary Structure Prediction using Discrete Diffusion Models
 ![fig_1](/figures/fig1_overview.png)
-
+## Abstract
 RNA molecules are essential macromolecules that perform diverse biological functions in living beings. Precise prediction of RNA secondary structures is instrumental in deciphering their complex three-dimensional architecture and functionality. Traditional methodologies for RNA structure prediction, including energy-based and learning-based approaches, often depict RNA secondary structures from a static perspective and rely on stringent a priori constraints. Inspired by the success of diffusion models, in this work, we introduce RNADiffFold, an innovative generative prediction approach of RNA secondary structures based on multinomial diffusion. We reconceptualize the prediction of contact maps as akin to pixel-wise segmentation and accordingly train a denoising model to refine the contact maps starting from a noise-infused state progressively. We also devise a potent conditioning mechanism that harnesses features extracted from RNA sequences to steer the model toward generating an accurate secondary structure. These features encompass one-hot encoded sequences, probabilistic maps generated from a pre-trained scoring network, and embeddings and attention maps derived from RNA-FM. Experimental results on both within- and cross-family datasets demonstrate RNADiffFold's competitive performance compared with current state-of-the-art methods. Additionally, RNADiffFold has shown a notable proficiency in capturing the dynamic aspects of RNA structures, a claim corroborated by its performance on datasets comprising multiple conformations.
 
 ## Prerequisites
@@ -63,3 +63,6 @@ We provide the predict script for user to predict the secondary structure of the
 python prediction/predict.py
 ```
 The predict results for each sequence will be stored in the `./prediction/predict_results/ct_files` directory.
+
+## Acknowledgements
+This project draws inspiration from [multinomial diffusion](https://github.com/ehoogeboom/multinomial_diffusion). We extend our gratitude to the authors for their outstanding research and code, and we hope that readers will find their contributions equally valuable.
