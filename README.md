@@ -12,7 +12,7 @@ RNA molecules are essential macromolecules that perform diverse biological funct
 1. Before using the `requirements.yml` file, please update the prefix path in the last line to match your own system's path.
 2. Use the following command to create the environment. 
 ```
-conda env create -f requiremnets.yml
+conda env create -f requirements.yml
 ```
 3. Activate the environment.
 ```
